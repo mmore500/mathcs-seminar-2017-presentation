@@ -1,0 +1,76 @@
+%\title{Mathematics and Computer Science Department Seminar Presentation}
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage[compatibility=false]{caption}
+\usepackage{subcaption}
+\usepackage{csquotes}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[scale=2]{ccicons}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{3d}
+
+\usepackage{multimedia}
+\usepackage{media9}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{Investigating Evolvability in a Genetic Regulatory Network Model}
+\subtitle{Mathematics and Computer Science Department Seminar}
+\date{April 10th, 2017}
+\author{\texorpdfstring{Matthew Moreno \newline\url{mamoreno@pugetsound.edu}}{Matthew Moreno}}
+\titlegraphic{\hfill\includegraphics[height=2cm]{img/UofPS_stacked_maroonRGB_PNG.png}}
+
+%cyan 36a8b8
+%blue b2d4ef
+%purple c677dd
+%overleaf green 4F9C45
+%green 7b9e62
+%red 1 cb4752
+%red 2 be5046
+%orange 1 d19a66
+%orange 2 e5c07b
+
+\definecolor{h1}{HTML}{d19a66}
+\definecolor{h2}{HTML}{36a8b8}
+
+\begin{document}
+
+\maketitle
+
+% \begin{frame}{Table of contents}
+%   \setbeamertemplate{section in toc}[sections numbered]
+%   \tableofcontents[hideallsubsections]
+% \end{frame}
+
+\input{tex/evolutionary_algorithm.tex}
+
+\input{tex/defining_evolvability.tex}
+
+\input{tex/structural.tex}
+
+\input{tex/in_action.tex}
+
+\input{tex/plasticity.tex}
+
+\input{tex/model.tex}
+
+\input{tex/experiment_direct.tex}
+
+\input{tex/experiment_indirect.tex}
+
+\input{tex/conclusion.tex}
+
+\input{tex/appendix.tex}
+
+\input{tex/backup.tex}
+
+\end{document}
